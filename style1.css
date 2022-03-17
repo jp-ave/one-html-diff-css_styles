@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.container{
+	font-family: Arial;
+	background-color: #d14836;
+	margin: 15px; 
+}
+.banner{
+	padding: 20px;	
+	color: #ffffff;
+}
+.banner h1{
+	font-size: 	50px;
+}
+.banner p{
+	font-size: 30px;
+}
+.main-content{
+	margin: 10px;
+	background-color: #ffffff;
+}
+.menu-bar{
+	padding: 10px;
+	float: right;
+	width: 20%;
+}
+.menu-bar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+.menu-bar li{
+	border: 1px solid;
+	border-radius: 20px;
+	border-color: #d14836;
+	background-color: #d14836;
+	margin-bottom: 7px;
+	font-size: 19px;
+	text-align: center;
+}
+.menu-bar li a{
+	padding: 5px;
+	text-decoration:none;
+	color: #ffffff;
+	display: block;
+}
+.menu-bar li a:hover:not(#active){
+	border-radius: 20px;
+	background-color: #ffffff;
+	color: #d14836;
+}
+#active{
+	border-radius: 20px;
+	background-color: #ffffff;
+	color: #d14836;
+}
+.article{
+
+	width: 80%;
+	padding: 10px;
+
+}
+.article h1, h2{
+	color: #d14836;
+}
+.article a{
+	text-decoration: none;
+	color: black;
+}
+.article a:hover{
+	text-decoration: underline;
+}
+.side-bar{
+	text-align: justify;
+	background-color: #ffb3b3;
+	width: 100%;
+}
+.side-bar h3, .side-bar p{
+	color: #d14836;
+	padding: 15px;
+}
+.footer {
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	height: inherit;
+}
+@media only screen and (max-width: 1024px){
+	.menu-bar{
+		width: 40%;
+	}
+	.article{
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 680px){
+	.menu-bar{
+		width: 40%;
+	}
+	.article{
+		width: 60%;
+	}
+}

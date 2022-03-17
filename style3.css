@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color:  #d9d9d9;
+	font: 100% Courier New;
+}
+.container{
+	padding: 2%;
+	margin: 2.3%;
+	background-color: #000000;
+	display: inline-block;
+}
+.banner{
+	color: #84c754;
+}
+.menu-bar ul{
+	margin: 25px;
+	float: left;
+	width: 50%;
+	color: #84c754;
+}
+.menu-bar li{
+	padding-bottom: 6px;
+}
+.menu-bar li a{
+	display: inline-block;
+	 color: #84c754;
+	 text-decoration: none;
+}
+.menu-bar li a:hover:not(#active){
+	 color: #ffffff;
+}
+#active{
+	color: #ffffff;
+	cursor: default;
+}
+.article{
+	color: #84c754;
+	float: right;
+	margin-bottom: 5%;
+}
+.article a{
+	color: #ffffff;
+}
+.article a:hover{
+	color: #84c754;
+}
+.side-bar{
+	margin-top: 20px;
+	border-radius: 5px;
+	padding: 25px 12px;
+	overflow: hidden;
+	display: block;
+	color: #ffffff;
+	border: 1px solid;
+	border-color: #ffffff;
+}
+.side-bar p{
+	font-size: 13px;
+}
+.footer{
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 13px;
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: #ffffff; 
+	color: #ffffff;
+	float: right;
+}
+@media only screen and (max-width: 1050px){
+	.menu-bar ul{
+		width: 40%
+	}	
+@media only screen and (max-width: 680px){
+	.menu-bar ul{
+		width: 100%
+	}
+}
